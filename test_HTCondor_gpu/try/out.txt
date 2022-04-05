@@ -1,0 +1,4 @@
+Number of arguments: 2 arguments.
+Argument List: ['test.py', 'ein/pfad/nach/nirgendwo']
+ein/pfad/nach/nirgendwo
+<class 'str'>

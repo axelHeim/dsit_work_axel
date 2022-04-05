@@ -1,0 +1,11 @@
+Executable      = /afs/desy.de/user/a/axelheim/private/test_HTCondor_gpu/hello/hello.py
+Output          = /afs/desy.de/user/a/axelheim/private/test_HTCondor_gpu/hello/OUTPUT/hello.out.$(Cluster).$(Process).txt
+Error           = /afs/desy.de/user/a/axelheim/private/test_HTCondor_gpu/hello/OUTPUT/hello.error.$(Cluster).$(Process).txt
+Log             = /afs/desy.de/user/a/axelheim/private/test_HTCondor_gpu/hello/OUTPUT/hello.log.$(Cluster).$(Process).txt
+
+
+
+Arguments = $(Process)
+PeriodicRelease = ((JobStatus==5) && (CurentTime - EnteredCurrentStatus) > 30)
+OnExitRemove = (ExitStatus == 0)
+Queue 4

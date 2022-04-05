@@ -1,0 +1,2 @@
+sh: -c: line 0: syntax error near unexpected token `newline'
+sh: -c: line 0: `/var/lib/condor/util/job_wrapper.sh /afs/desy.de/user/a/axelheim/private/test_HTCondor_gpu/try/test.sh <Queue_item>'

@@ -1,0 +1,11 @@
+Executable  = test.py
+Log         = $ENV(HOME)/private/test_HTCondor_gpu/log_$(Cluster)_$(Process).txt
+Output      = $ENV(HOME)/private/test_HTCondor_gpu/out_$(Cluster)_$(Process).txt
+Error       = $ENV(HOME)/private/test_HTCondor_gpu/error_$(Cluster)_$(Process).txt
+
+Requirements = OpSysAndVer == "CentOS7"
+Request_GPUs = 1
+
+getenv = True
+
+Queue 

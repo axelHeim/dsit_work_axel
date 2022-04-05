@@ -1,0 +1,12 @@
+Executable  = $ENV(HOME)/private/test_HTCondor_gpu/try/test.sh
+Log         = $ENV(HOME)/private/test_HTCondor_gpu/try/log_$(Cluster)_$(Process).txt
+Output      = $ENV(HOME)/private/test_HTCondor_gpu/try/out_$(Cluster)_$(Process).txt
+Error       = $ENV(HOME)/private/test_HTCondor_gpu/try/error_$(Cluster)_$(Process).txt
+
+
+# Arguments = "ein/pfad/nach/nirgendwo"
+Args = $(var1) 
+queue var1 from list.txt
+
+
+Queue 1

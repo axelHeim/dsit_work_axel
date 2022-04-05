@@ -1,0 +1,746 @@
+Uid of keyring htcondor_uid0
+1
+2
+3
+4
+5
+6
+7
+8
+11
+12
+14
+99
+192
+81
+999
+998
+32
+89
+74
+38
+72
+59
+997
+29
+65534
+996
+995
+994
+993
+992
+991 is 37039
+1
+2
+3
+4
+5
+6
+7
+8
+11
+12
+14
+99
+192
+81
+999
+998
+32
+89
+74
+38
+72
+59
+997
+29
+65534
+996
+995
+994
+993
+992
+991, but ruid is 37039. Aborting.
+Uid of keyring htcondor_uid0
+1
+2
+3
+4
+5
+6
+7
+8
+11
+12
+14
+99
+192
+81
+999
+998
+32
+89
+74
+38
+72
+59
+997
+29
+65534
+996
+995
+994
+993
+992
+991 is 37039
+1
+2
+3
+4
+5
+6
+7
+8
+11
+12
+14
+99
+192
+81
+999
+998
+32
+89
+74
+38
+72
+59
+997
+29
+65534
+996
+995
+994
+993
+992
+991, but ruid is 37039. Aborting.
+
+
+path successfully passed!
+use data path:  50k_realTree_IDs_charge 
+
+
+data from:  /afs/desy.de/user/a/axelheim/private/run_realTree_separator/data/50k_realTree_IDs_charge
+(45000, 12, 7)
+(45000, 12)
+12
+2
+7
+
+
+New NN specs passed!
+Used specs: nhid: 512 lr: 1e-05 bsize: 128 drop: 0.3 n_blocks: 4 
+
+torch.Size([128, 12])
+torch.Size([12, 128, 7])
+Using factor graph MLP encoder.
+
+ Training Results - Epoch: 1  Weight accuracy: 0.72 Avg loss: 0.5193 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.18 SA3F: 0.33 SAbad: 0.45
+Validation Results - Epoch: 1  Weight accuracy: 0.72 Avg loss: 0.5193 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.18 SA3F: 0.32 SAbad: 0.45
+
+ Training Results - Epoch: 2  Weight accuracy: 0.77 Avg loss: 0.4798 PerfectSA 0.00 
+ SA1F: 0.03 SA2F: 0.35 SA3F: 0.45 SAbad: 0.17
+Validation Results - Epoch: 2  Weight accuracy: 0.77 Avg loss: 0.4788 PerfectSA 0.00 
+ SA1F: 0.03 SA2F: 0.36 SA3F: 0.43 SAbad: 0.18
+
+ Training Results - Epoch: 3  Weight accuracy: 0.76 Avg loss: 0.4903 PerfectSA 0.01 
+ SA1F: 0.10 SA2F: 0.29 SA3F: 0.31 SAbad: 0.29
+Validation Results - Epoch: 3  Weight accuracy: 0.76 Avg loss: 0.4911 PerfectSA 0.01 
+ SA1F: 0.10 SA2F: 0.28 SA3F: 0.32 SAbad: 0.29
+
+ Training Results - Epoch: 4  Weight accuracy: 0.76 Avg loss: 0.5097 PerfectSA 0.02 
+ SA1F: 0.11 SA2F: 0.28 SA3F: 0.31 SAbad: 0.29
+Validation Results - Epoch: 4  Weight accuracy: 0.76 Avg loss: 0.5106 PerfectSA 0.01 
+ SA1F: 0.11 SA2F: 0.27 SA3F: 0.32 SAbad: 0.29
+
+ Training Results - Epoch: 5  Weight accuracy: 0.76 Avg loss: 0.5107 PerfectSA 0.02 
+ SA1F: 0.11 SA2F: 0.28 SA3F: 0.31 SAbad: 0.29
+Validation Results - Epoch: 5  Weight accuracy: 0.76 Avg loss: 0.5112 PerfectSA 0.01 
+ SA1F: 0.11 SA2F: 0.27 SA3F: 0.31 SAbad: 0.29
+
+ Training Results - Epoch: 6  Weight accuracy: 0.75 Avg loss: 0.5414 PerfectSA 0.02 
+ SA1F: 0.12 SA2F: 0.26 SA3F: 0.28 SAbad: 0.32
+Validation Results - Epoch: 6  Weight accuracy: 0.75 Avg loss: 0.5412 PerfectSA 0.01 
+ SA1F: 0.12 SA2F: 0.26 SA3F: 0.29 SAbad: 0.32
+
+ Training Results - Epoch: 7  Weight accuracy: 0.77 Avg loss: 0.5059 PerfectSA 0.03 
+ SA1F: 0.15 SA2F: 0.28 SA3F: 0.27 SAbad: 0.27
+Validation Results - Epoch: 7  Weight accuracy: 0.77 Avg loss: 0.5054 PerfectSA 0.02 
+ SA1F: 0.15 SA2F: 0.28 SA3F: 0.28 SAbad: 0.27
+
+ Training Results - Epoch: 8  Weight accuracy: 0.76 Avg loss: 0.5285 PerfectSA 0.01 
+ SA1F: 0.13 SA2F: 0.28 SA3F: 0.29 SAbad: 0.29
+Validation Results - Epoch: 8  Weight accuracy: 0.76 Avg loss: 0.5288 PerfectSA 0.01 
+ SA1F: 0.12 SA2F: 0.28 SA3F: 0.30 SAbad: 0.29
+
+ Training Results - Epoch: 9  Weight accuracy: 0.77 Avg loss: 0.5370 PerfectSA 0.01 
+ SA1F: 0.13 SA2F: 0.29 SA3F: 0.30 SAbad: 0.27
+Validation Results - Epoch: 9  Weight accuracy: 0.77 Avg loss: 0.5372 PerfectSA 0.01 
+ SA1F: 0.13 SA2F: 0.29 SA3F: 0.30 SAbad: 0.27
+
+ Training Results - Epoch: 10  Weight accuracy: 0.76 Avg loss: 0.5385 PerfectSA 0.02 
+ SA1F: 0.13 SA2F: 0.26 SA3F: 0.28 SAbad: 0.31
+Validation Results - Epoch: 10  Weight accuracy: 0.76 Avg loss: 0.5401 PerfectSA 0.02 
+ SA1F: 0.13 SA2F: 0.26 SA3F: 0.29 SAbad: 0.31
+
+ Training Results - Epoch: 11  Weight accuracy: 0.76 Avg loss: 0.5411 PerfectSA 0.02 
+ SA1F: 0.14 SA2F: 0.26 SA3F: 0.28 SAbad: 0.30
+Validation Results - Epoch: 11  Weight accuracy: 0.76 Avg loss: 0.5425 PerfectSA 0.02 
+ SA1F: 0.14 SA2F: 0.25 SA3F: 0.29 SAbad: 0.31
+
+ Training Results - Epoch: 12  Weight accuracy: 0.75 Avg loss: 0.5926 PerfectSA 0.02 
+ SA1F: 0.11 SA2F: 0.23 SA3F: 0.28 SAbad: 0.36
+Validation Results - Epoch: 12  Weight accuracy: 0.75 Avg loss: 0.5935 PerfectSA 0.02 
+ SA1F: 0.11 SA2F: 0.23 SA3F: 0.28 SAbad: 0.37
+
+ Training Results - Epoch: 13  Weight accuracy: 0.74 Avg loss: 0.6442 PerfectSA 0.01 
+ SA1F: 0.10 SA2F: 0.22 SA3F: 0.28 SAbad: 0.38
+Validation Results - Epoch: 13  Weight accuracy: 0.74 Avg loss: 0.6446 PerfectSA 0.01 
+ SA1F: 0.10 SA2F: 0.21 SA3F: 0.29 SAbad: 0.39
+
+ Training Results - Epoch: 14  Weight accuracy: 0.74 Avg loss: 0.6719 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.21 SA3F: 0.28 SAbad: 0.41
+Validation Results - Epoch: 14  Weight accuracy: 0.73 Avg loss: 0.6731 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.20 SA3F: 0.28 SAbad: 0.41
+
+ Training Results - Epoch: 15  Weight accuracy: 0.73 Avg loss: 0.7007 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.20 SA3F: 0.28 SAbad: 0.43
+Validation Results - Epoch: 15  Weight accuracy: 0.73 Avg loss: 0.7020 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.19 SA3F: 0.29 SAbad: 0.42
+
+ Training Results - Epoch: 16  Weight accuracy: 0.72 Avg loss: 0.7502 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.18 SA3F: 0.27 SAbad: 0.46
+Validation Results - Epoch: 16  Weight accuracy: 0.72 Avg loss: 0.7520 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.18 SA3F: 0.27 SAbad: 0.47
+
+ Training Results - Epoch: 17  Weight accuracy: 0.72 Avg loss: 0.7619 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.19 SA3F: 0.29 SAbad: 0.44
+Validation Results - Epoch: 17  Weight accuracy: 0.72 Avg loss: 0.7636 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.19 SA3F: 0.29 SAbad: 0.45
+
+ Training Results - Epoch: 18  Weight accuracy: 0.73 Avg loss: 0.7255 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.19 SA3F: 0.27 SAbad: 0.44
+Validation Results - Epoch: 18  Weight accuracy: 0.73 Avg loss: 0.7262 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.20 SA3F: 0.27 SAbad: 0.44
+
+ Training Results - Epoch: 19  Weight accuracy: 0.73 Avg loss: 0.7458 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.20 SA3F: 0.28 SAbad: 0.43
+Validation Results - Epoch: 19  Weight accuracy: 0.73 Avg loss: 0.7477 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.20 SA3F: 0.28 SAbad: 0.43
+
+ Training Results - Epoch: 20  Weight accuracy: 0.72 Avg loss: 0.7881 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.19 SA3F: 0.29 SAbad: 0.44
+Validation Results - Epoch: 20  Weight accuracy: 0.72 Avg loss: 0.7885 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.19 SA3F: 0.28 SAbad: 0.45
+
+ Training Results - Epoch: 21  Weight accuracy: 0.73 Avg loss: 0.7347 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.21 SA3F: 0.30 SAbad: 0.40
+Validation Results - Epoch: 21  Weight accuracy: 0.73 Avg loss: 0.7360 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.22 SA3F: 0.28 SAbad: 0.41
+
+ Training Results - Epoch: 22  Weight accuracy: 0.74 Avg loss: 0.7462 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.22 SA3F: 0.29 SAbad: 0.39
+Validation Results - Epoch: 22  Weight accuracy: 0.74 Avg loss: 0.7470 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.23 SA3F: 0.29 SAbad: 0.39
+
+ Training Results - Epoch: 23  Weight accuracy: 0.73 Avg loss: 0.7691 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.21 SA3F: 0.31 SAbad: 0.41
+Validation Results - Epoch: 23  Weight accuracy: 0.73 Avg loss: 0.7685 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.22 SA3F: 0.29 SAbad: 0.42
+
+ Training Results - Epoch: 24  Weight accuracy: 0.74 Avg loss: 0.7449 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.22 SA3F: 0.32 SAbad: 0.38
+Validation Results - Epoch: 24  Weight accuracy: 0.74 Avg loss: 0.7452 PerfectSA 0.01 
+ SA1F: 0.07 SA2F: 0.22 SA3F: 0.31 SAbad: 0.39
+
+ Training Results - Epoch: 25  Weight accuracy: 0.73 Avg loss: 0.7859 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.21 SA3F: 0.34 SAbad: 0.39
+Validation Results - Epoch: 25  Weight accuracy: 0.73 Avg loss: 0.7856 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.21 SA3F: 0.32 SAbad: 0.41
+
+ Training Results - Epoch: 26  Weight accuracy: 0.73 Avg loss: 0.7825 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.21 SA3F: 0.34 SAbad: 0.39
+Validation Results - Epoch: 26  Weight accuracy: 0.73 Avg loss: 0.7828 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.21 SA3F: 0.33 SAbad: 0.40
+
+ Training Results - Epoch: 27  Weight accuracy: 0.74 Avg loss: 0.7381 PerfectSA 0.01 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.35 SAbad: 0.35
+Validation Results - Epoch: 27  Weight accuracy: 0.74 Avg loss: 0.7374 PerfectSA 0.00 
+ SA1F: 0.07 SA2F: 0.23 SA3F: 0.34 SAbad: 0.36
+
+ Training Results - Epoch: 28  Weight accuracy: 0.74 Avg loss: 0.7424 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.35 SAbad: 0.36
+Validation Results - Epoch: 28  Weight accuracy: 0.74 Avg loss: 0.7422 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.34 SAbad: 0.37
+
+ Training Results - Epoch: 29  Weight accuracy: 0.73 Avg loss: 0.7707 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.21 SA3F: 0.38 SAbad: 0.37
+Validation Results - Epoch: 29  Weight accuracy: 0.73 Avg loss: 0.7710 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.20 SA3F: 0.37 SAbad: 0.37
+
+ Training Results - Epoch: 30  Weight accuracy: 0.74 Avg loss: 0.7212 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.24 SA3F: 0.37 SAbad: 0.33
+Validation Results - Epoch: 30  Weight accuracy: 0.74 Avg loss: 0.7210 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.36 SAbad: 0.34
+
+ Training Results - Epoch: 31  Weight accuracy: 0.74 Avg loss: 0.7460 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.22 SA3F: 0.38 SAbad: 0.34
+Validation Results - Epoch: 31  Weight accuracy: 0.74 Avg loss: 0.7456 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.22 SA3F: 0.38 SAbad: 0.34
+
+ Training Results - Epoch: 32  Weight accuracy: 0.74 Avg loss: 0.7613 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.22 SA3F: 0.39 SAbad: 0.35
+Validation Results - Epoch: 32  Weight accuracy: 0.74 Avg loss: 0.7609 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.22 SA3F: 0.39 SAbad: 0.35
+
+ Training Results - Epoch: 33  Weight accuracy: 0.73 Avg loss: 0.7736 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.21 SA3F: 0.39 SAbad: 0.36
+Validation Results - Epoch: 33  Weight accuracy: 0.74 Avg loss: 0.7721 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.22 SA3F: 0.38 SAbad: 0.36
+
+ Training Results - Epoch: 34  Weight accuracy: 0.74 Avg loss: 0.7461 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.22 SA3F: 0.38 SAbad: 0.35
+Validation Results - Epoch: 34  Weight accuracy: 0.74 Avg loss: 0.7460 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.22 SA3F: 0.38 SAbad: 0.35
+
+ Training Results - Epoch: 35  Weight accuracy: 0.74 Avg loss: 0.7171 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.22 SA3F: 0.39 SAbad: 0.33
+Validation Results - Epoch: 35  Weight accuracy: 0.74 Avg loss: 0.7158 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.22 SA3F: 0.39 SAbad: 0.33
+
+ Training Results - Epoch: 36  Weight accuracy: 0.74 Avg loss: 0.7214 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.23 SA3F: 0.38 SAbad: 0.33
+Validation Results - Epoch: 36  Weight accuracy: 0.74 Avg loss: 0.7199 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.38 SAbad: 0.33
+
+ Training Results - Epoch: 37  Weight accuracy: 0.74 Avg loss: 0.7483 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.21 SA3F: 0.40 SAbad: 0.35
+Validation Results - Epoch: 37  Weight accuracy: 0.74 Avg loss: 0.7477 PerfectSA 0.00 
+ SA1F: 0.04 SA2F: 0.21 SA3F: 0.41 SAbad: 0.34
+
+ Training Results - Epoch: 38  Weight accuracy: 0.74 Avg loss: 0.7138 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.23 SA3F: 0.38 SAbad: 0.33
+Validation Results - Epoch: 38  Weight accuracy: 0.74 Avg loss: 0.7135 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.38 SAbad: 0.33
+
+ Training Results - Epoch: 39  Weight accuracy: 0.75 Avg loss: 0.6711 PerfectSA 0.00 
+ SA1F: 0.07 SA2F: 0.25 SA3F: 0.36 SAbad: 0.30
+Validation Results - Epoch: 39  Weight accuracy: 0.75 Avg loss: 0.6707 PerfectSA 0.00 
+ SA1F: 0.08 SA2F: 0.25 SA3F: 0.36 SAbad: 0.31
+
+ Training Results - Epoch: 40  Weight accuracy: 0.74 Avg loss: 0.7000 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.23 SA3F: 0.39 SAbad: 0.32
+Validation Results - Epoch: 40  Weight accuracy: 0.74 Avg loss: 0.6994 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.38 SAbad: 0.33
+
+ Training Results - Epoch: 41  Weight accuracy: 0.75 Avg loss: 0.6855 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.25 SA3F: 0.38 SAbad: 0.30
+Validation Results - Epoch: 41  Weight accuracy: 0.75 Avg loss: 0.6861 PerfectSA 0.00 
+ SA1F: 0.07 SA2F: 0.25 SA3F: 0.37 SAbad: 0.31
+
+ Training Results - Epoch: 42  Weight accuracy: 0.74 Avg loss: 0.7069 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.23 SA3F: 0.38 SAbad: 0.33
+Validation Results - Epoch: 42  Weight accuracy: 0.74 Avg loss: 0.7069 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.38 SAbad: 0.33
+
+ Training Results - Epoch: 43  Weight accuracy: 0.75 Avg loss: 0.6863 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.25 SA3F: 0.38 SAbad: 0.31
+Validation Results - Epoch: 43  Weight accuracy: 0.75 Avg loss: 0.6853 PerfectSA 0.00 
+ SA1F: 0.07 SA2F: 0.24 SA3F: 0.37 SAbad: 0.31
+
+ Training Results - Epoch: 44  Weight accuracy: 0.74 Avg loss: 0.7099 PerfectSA 0.00 
+ SA1F: 0.05 SA2F: 0.23 SA3F: 0.38 SAbad: 0.34
+Validation Results - Epoch: 44  Weight accuracy: 0.74 Avg loss: 0.7080 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.22 SA3F: 0.37 SAbad: 0.34
+
+ Training Results - Epoch: 45  Weight accuracy: 0.75 Avg loss: 0.6779 PerfectSA 0.00 
+ SA1F: 0.07 SA2F: 0.24 SA3F: 0.37 SAbad: 0.31
+Validation Results - Epoch: 45  Weight accuracy: 0.75 Avg loss: 0.6774 PerfectSA 0.00 
+ SA1F: 0.07 SA2F: 0.24 SA3F: 0.37 SAbad: 0.31
+
+ Training Results - Epoch: 46  Weight accuracy: 0.74 Avg loss: 0.6949 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.37 SAbad: 0.34
+Validation Results - Epoch: 46  Weight accuracy: 0.74 Avg loss: 0.6946 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.37 SAbad: 0.34
+
+ Training Results - Epoch: 47  Weight accuracy: 0.74 Avg loss: 0.6907 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.37 SAbad: 0.33
+Validation Results - Epoch: 47  Weight accuracy: 0.74 Avg loss: 0.6906 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.37 SAbad: 0.33
+
+ Training Results - Epoch: 48  Weight accuracy: 0.74 Avg loss: 0.7000 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.22 SA3F: 0.37 SAbad: 0.34
+Validation Results - Epoch: 48  Weight accuracy: 0.74 Avg loss: 0.6998 PerfectSA 0.00 
+ SA1F: 0.06 SA2F: 0.23 SA3F: 0.37 SAbad: 0.34
+
+ Training Results - Epoch: 49  Weight accuracy: 0.75 Avg loss: 0.6503 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.24 SA3F: 0.36 SAbad: 0.32
+Validation Results - Epoch: 49  Weight accuracy: 0.75 Avg loss: 0.6503 PerfectSA 0.00 
+ SA1F: 0.08 SA2F: 0.24 SA3F: 0.36 SAbad: 0.31
+
+ Training Results - Epoch: 50  Weight accuracy: 0.75 Avg loss: 0.6509 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.25 SA3F: 0.35 SAbad: 0.31
+Validation Results - Epoch: 50  Weight accuracy: 0.75 Avg loss: 0.6509 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.25 SA3F: 0.36 SAbad: 0.31
+
+ Training Results - Epoch: 51  Weight accuracy: 0.75 Avg loss: 0.6343 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.25 SA3F: 0.35 SAbad: 0.30
+Validation Results - Epoch: 51  Weight accuracy: 0.75 Avg loss: 0.6349 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.35 SAbad: 0.31
+
+ Training Results - Epoch: 52  Weight accuracy: 0.75 Avg loss: 0.6360 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.35 SAbad: 0.32
+Validation Results - Epoch: 52  Weight accuracy: 0.75 Avg loss: 0.6366 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.35 SAbad: 0.31
+
+ Training Results - Epoch: 53  Weight accuracy: 0.75 Avg loss: 0.6494 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.34 SAbad: 0.32
+Validation Results - Epoch: 53  Weight accuracy: 0.75 Avg loss: 0.6493 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.34 SAbad: 0.32
+
+ Training Results - Epoch: 54  Weight accuracy: 0.75 Avg loss: 0.6334 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.35 SAbad: 0.31
+Validation Results - Epoch: 54  Weight accuracy: 0.75 Avg loss: 0.6338 PerfectSA 0.01 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.35 SAbad: 0.32
+
+ Training Results - Epoch: 55  Weight accuracy: 0.75 Avg loss: 0.6423 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.24 SA3F: 0.35 SAbad: 0.32
+Validation Results - Epoch: 55  Weight accuracy: 0.75 Avg loss: 0.6430 PerfectSA 0.01 
+ SA1F: 0.08 SA2F: 0.24 SA3F: 0.35 SAbad: 0.32
+
+ Training Results - Epoch: 56  Weight accuracy: 0.76 Avg loss: 0.5975 PerfectSA 0.02 
+ SA1F: 0.11 SA2F: 0.26 SA3F: 0.33 SAbad: 0.28
+Validation Results - Epoch: 56  Weight accuracy: 0.76 Avg loss: 0.5994 PerfectSA 0.02 
+ SA1F: 0.11 SA2F: 0.27 SA3F: 0.31 SAbad: 0.29
+
+ Training Results - Epoch: 57  Weight accuracy: 0.77 Avg loss: 0.5792 PerfectSA 0.02 
+ SA1F: 0.12 SA2F: 0.26 SA3F: 0.32 SAbad: 0.28
+Validation Results - Epoch: 57  Weight accuracy: 0.77 Avg loss: 0.5808 PerfectSA 0.02 
+ SA1F: 0.12 SA2F: 0.25 SA3F: 0.32 SAbad: 0.28
+
+ Training Results - Epoch: 58  Weight accuracy: 0.77 Avg loss: 0.5813 PerfectSA 0.03 
+ SA1F: 0.12 SA2F: 0.25 SA3F: 0.32 SAbad: 0.29
+Validation Results - Epoch: 58  Weight accuracy: 0.77 Avg loss: 0.5823 PerfectSA 0.03 
+ SA1F: 0.11 SA2F: 0.25 SA3F: 0.33 SAbad: 0.28
+
+ Training Results - Epoch: 59  Weight accuracy: 0.76 Avg loss: 0.5923 PerfectSA 0.03 
+ SA1F: 0.12 SA2F: 0.25 SA3F: 0.32 SAbad: 0.29
+Validation Results - Epoch: 59  Weight accuracy: 0.76 Avg loss: 0.5934 PerfectSA 0.03 
+ SA1F: 0.11 SA2F: 0.25 SA3F: 0.32 SAbad: 0.29
+
+ Training Results - Epoch: 60  Weight accuracy: 0.77 Avg loss: 0.5752 PerfectSA 0.04 
+ SA1F: 0.12 SA2F: 0.25 SA3F: 0.31 SAbad: 0.28
+Validation Results - Epoch: 60  Weight accuracy: 0.77 Avg loss: 0.5769 PerfectSA 0.04 
+ SA1F: 0.11 SA2F: 0.26 SA3F: 0.30 SAbad: 0.28
+
+ Training Results - Epoch: 61  Weight accuracy: 0.77 Avg loss: 0.5714 PerfectSA 0.04 
+ SA1F: 0.13 SA2F: 0.25 SA3F: 0.31 SAbad: 0.28
+Validation Results - Epoch: 61  Weight accuracy: 0.77 Avg loss: 0.5726 PerfectSA 0.04 
+ SA1F: 0.12 SA2F: 0.26 SA3F: 0.30 SAbad: 0.28
+
+ Training Results - Epoch: 62  Weight accuracy: 0.77 Avg loss: 0.5642 PerfectSA 0.04 
+ SA1F: 0.12 SA2F: 0.25 SA3F: 0.31 SAbad: 0.28
+Validation Results - Epoch: 62  Weight accuracy: 0.77 Avg loss: 0.5666 PerfectSA 0.04 
+ SA1F: 0.12 SA2F: 0.25 SA3F: 0.31 SAbad: 0.28
+
+ Training Results - Epoch: 63  Weight accuracy: 0.76 Avg loss: 0.6100 PerfectSA 0.03 
+ SA1F: 0.10 SA2F: 0.24 SA3F: 0.32 SAbad: 0.31
+Validation Results - Epoch: 63  Weight accuracy: 0.76 Avg loss: 0.6106 PerfectSA 0.03 
+ SA1F: 0.09 SA2F: 0.24 SA3F: 0.32 SAbad: 0.31
+
+ Training Results - Epoch: 64  Weight accuracy: 0.77 Avg loss: 0.5850 PerfectSA 0.04 
+ SA1F: 0.11 SA2F: 0.25 SA3F: 0.31 SAbad: 0.29
+Validation Results - Epoch: 64  Weight accuracy: 0.77 Avg loss: 0.5862 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.25 SA3F: 0.31 SAbad: 0.30
+
+ Training Results - Epoch: 65  Weight accuracy: 0.77 Avg loss: 0.5770 PerfectSA 0.04 
+ SA1F: 0.11 SA2F: 0.25 SA3F: 0.32 SAbad: 0.29
+Validation Results - Epoch: 65  Weight accuracy: 0.77 Avg loss: 0.5783 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.25 SA3F: 0.31 SAbad: 0.29
+
+ Training Results - Epoch: 66  Weight accuracy: 0.78 Avg loss: 0.5427 PerfectSA 0.05 
+ SA1F: 0.13 SA2F: 0.26 SA3F: 0.30 SAbad: 0.26
+Validation Results - Epoch: 66  Weight accuracy: 0.78 Avg loss: 0.5433 PerfectSA 0.05 
+ SA1F: 0.12 SA2F: 0.27 SA3F: 0.29 SAbad: 0.26
+
+ Training Results - Epoch: 67  Weight accuracy: 0.77 Avg loss: 0.5955 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.26 SA3F: 0.32 SAbad: 0.28
+Validation Results - Epoch: 67  Weight accuracy: 0.77 Avg loss: 0.5965 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.26 SA3F: 0.31 SAbad: 0.29
+
+ Training Results - Epoch: 68  Weight accuracy: 0.77 Avg loss: 0.5978 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.26 SA3F: 0.32 SAbad: 0.29
+Validation Results - Epoch: 68  Weight accuracy: 0.77 Avg loss: 0.5992 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.26 SA3F: 0.32 SAbad: 0.29
+
+ Training Results - Epoch: 69  Weight accuracy: 0.77 Avg loss: 0.5879 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.26 SA3F: 0.32 SAbad: 0.28
+Validation Results - Epoch: 69  Weight accuracy: 0.77 Avg loss: 0.5892 PerfectSA 0.04 
+ SA1F: 0.10 SA2F: 0.26 SA3F: 0.31 SAbad: 0.29
+
+ Training Results - Epoch: 70  Weight accuracy: 0.78 Avg loss: 0.5514 PerfectSA 0.05 
+ SA1F: 0.12 SA2F: 0.28 SA3F: 0.31 SAbad: 0.24
+Validation Results - Epoch: 70  Weight accuracy: 0.78 Avg loss: 0.5531 PerfectSA 0.05 
+ SA1F: 0.12 SA2F: 0.28 SA3F: 0.31 SAbad: 0.24
+
+ Training Results - Epoch: 71  Weight accuracy: 0.77 Avg loss: 0.5672 PerfectSA 0.04 
+ SA1F: 0.11 SA2F: 0.27 SA3F: 0.32 SAbad: 0.26
+Validation Results - Epoch: 71  Weight accuracy: 0.77 Avg loss: 0.5687 PerfectSA 0.05 
+ SA1F: 0.10 SA2F: 0.27 SA3F: 0.31 SAbad: 0.26
+
+ Training Results - Epoch: 72  Weight accuracy: 0.77 Avg loss: 0.5923 PerfectSA 0.04 
+ SA1F: 0.11 SA2F: 0.27 SA3F: 0.32 SAbad: 0.27
+Validation Results - Epoch: 72  Weight accuracy: 0.77 Avg loss: 0.5935 PerfectSA 0.04 
+ SA1F: 0.11 SA2F: 0.27 SA3F: 0.32 SAbad: 0.27
+
+ Training Results - Epoch: 73  Weight accuracy: 0.78 Avg loss: 0.5521 PerfectSA 0.05 
+ SA1F: 0.11 SA2F: 0.28 SA3F: 0.31 SAbad: 0.25
+Validation Results - Epoch: 73  Weight accuracy: 0.78 Avg loss: 0.5539 PerfectSA 0.05 
+ SA1F: 0.11 SA2F: 0.28 SA3F: 0.31 SAbad: 0.25
+
+ Training Results - Epoch: 74  Weight accuracy: 0.78 Avg loss: 0.5420 PerfectSA 0.05 
+ SA1F: 0.12 SA2F: 0.29 SA3F: 0.30 SAbad: 0.24
+Validation Results - Epoch: 74  Weight accuracy: 0.78 Avg loss: 0.5432 PerfectSA 0.05 
+ SA1F: 0.11 SA2F: 0.29 SA3F: 0.31 SAbad: 0.24
+
+ Training Results - Epoch: 75  Weight accuracy: 0.77 Avg loss: 0.6051 PerfectSA 0.03 
+ SA1F: 0.09 SA2F: 0.28 SA3F: 0.33 SAbad: 0.28
+Validation Results - Epoch: 75  Weight accuracy: 0.77 Avg loss: 0.6061 PerfectSA 0.04 
+ SA1F: 0.09 SA2F: 0.27 SA3F: 0.33 SAbad: 0.28
+
+ Training Results - Epoch: 76  Weight accuracy: 0.77 Avg loss: 0.5941 PerfectSA 0.03 
+ SA1F: 0.10 SA2F: 0.29 SA3F: 0.32 SAbad: 0.26
+Validation Results - Epoch: 76  Weight accuracy: 0.77 Avg loss: 0.5949 PerfectSA 0.04 
+ SA1F: 0.09 SA2F: 0.28 SA3F: 0.32 SAbad: 0.27
+
+ Training Results - Epoch: 77  Weight accuracy: 0.76 Avg loss: 0.6429 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.28 SA3F: 0.34 SAbad: 0.29
+Validation Results - Epoch: 77  Weight accuracy: 0.76 Avg loss: 0.6435 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.27 SA3F: 0.33 SAbad: 0.30
+
+ Training Results - Epoch: 78  Weight accuracy: 0.77 Avg loss: 0.6025 PerfectSA 0.03 
+ SA1F: 0.11 SA2F: 0.29 SA3F: 0.32 SAbad: 0.25
+Validation Results - Epoch: 78  Weight accuracy: 0.77 Avg loss: 0.6038 PerfectSA 0.03 
+ SA1F: 0.11 SA2F: 0.29 SA3F: 0.32 SAbad: 0.25
+
+ Training Results - Epoch: 79  Weight accuracy: 0.77 Avg loss: 0.5910 PerfectSA 0.03 
+ SA1F: 0.10 SA2F: 0.30 SA3F: 0.33 SAbad: 0.24
+Validation Results - Epoch: 79  Weight accuracy: 0.77 Avg loss: 0.5926 PerfectSA 0.03 
+ SA1F: 0.09 SA2F: 0.29 SA3F: 0.33 SAbad: 0.25
+
+ Training Results - Epoch: 80  Weight accuracy: 0.77 Avg loss: 0.6262 PerfectSA 0.03 
+ SA1F: 0.08 SA2F: 0.29 SA3F: 0.33 SAbad: 0.27
+Validation Results - Epoch: 80  Weight accuracy: 0.77 Avg loss: 0.6278 PerfectSA 0.03 
+ SA1F: 0.08 SA2F: 0.29 SA3F: 0.34 SAbad: 0.27
+
+ Training Results - Epoch: 81  Weight accuracy: 0.76 Avg loss: 0.6781 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.28 SA3F: 0.35 SAbad: 0.28
+Validation Results - Epoch: 81  Weight accuracy: 0.76 Avg loss: 0.6785 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.28 SA3F: 0.35 SAbad: 0.28
+
+ Training Results - Epoch: 82  Weight accuracy: 0.76 Avg loss: 0.6620 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.29 SA3F: 0.35 SAbad: 0.27
+Validation Results - Epoch: 82  Weight accuracy: 0.76 Avg loss: 0.6630 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.29 SA3F: 0.35 SAbad: 0.28
+
+ Training Results - Epoch: 83  Weight accuracy: 0.76 Avg loss: 0.6808 PerfectSA 0.02 
+ SA1F: 0.06 SA2F: 0.29 SA3F: 0.35 SAbad: 0.28
+Validation Results - Epoch: 83  Weight accuracy: 0.76 Avg loss: 0.6818 PerfectSA 0.02 
+ SA1F: 0.06 SA2F: 0.28 SA3F: 0.36 SAbad: 0.28
+
+ Training Results - Epoch: 84  Weight accuracy: 0.76 Avg loss: 0.7176 PerfectSA 0.02 
+ SA1F: 0.06 SA2F: 0.28 SA3F: 0.36 SAbad: 0.29
+Validation Results - Epoch: 84  Weight accuracy: 0.76 Avg loss: 0.7187 PerfectSA 0.02 
+ SA1F: 0.06 SA2F: 0.28 SA3F: 0.36 SAbad: 0.29
+
+ Training Results - Epoch: 85  Weight accuracy: 0.77 Avg loss: 0.6317 PerfectSA 0.03 
+ SA1F: 0.08 SA2F: 0.30 SA3F: 0.35 SAbad: 0.24
+Validation Results - Epoch: 85  Weight accuracy: 0.77 Avg loss: 0.6341 PerfectSA 0.03 
+ SA1F: 0.08 SA2F: 0.30 SA3F: 0.35 SAbad: 0.24
+
+ Training Results - Epoch: 86  Weight accuracy: 0.77 Avg loss: 0.6771 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.29 SA3F: 0.36 SAbad: 0.25
+Validation Results - Epoch: 86  Weight accuracy: 0.77 Avg loss: 0.6790 PerfectSA 0.02 
+ SA1F: 0.07 SA2F: 0.29 SA3F: 0.36 SAbad: 0.25
+
+ Training Results - Epoch: 87  Weight accuracy: 0.77 Avg loss: 0.6602 PerfectSA 0.02 
+ SA1F: 0.08 SA2F: 0.30 SA3F: 0.36 SAbad: 0.24
+Validation Results - Epoch: 87  Weight accuracy: 0.77 Avg loss: 0.6629 PerfectSA 0.03 
+ SA1F: 0.07 SA2F: 0.29 SA3F: 0.36 SAbad: 0.24
+
+ Training Results - Epoch: 88  Weight accuracy: 0.77 Avg loss: 0.6465 PerfectSA 0.02 
+ SA1F: 0.09 SA2F: 0.31 SA3F: 0.35 SAbad: 0.23
+Validation Results - Epoch: 88  Weight accuracy: 0.77 Avg loss: 0.6494 PerfectSA 0.02 
+ SA1F: 0.09 SA2F: 0.30 SA3F: 0.35 SAbad: 0.23
+
+ Training Results - Epoch: 89  Weight accuracy: 0.78 Avg loss: 0.6197 PerfectSA 0.03 
+ SA1F: 0.09 SA2F: 0.31 SA3F: 0.36 SAbad: 0.21
+Validation Results - Epoch: 89  Weight accuracy: 0.78 Avg loss: 0.6222 PerfectSA 0.03 
+ SA1F: 0.09 SA2F: 0.31 SA3F: 0.37 SAbad: 0.20
+
+ Training Results - Epoch: 90  Weight accuracy: 0.78 Avg loss: 0.6446 PerfectSA 0.03 
+ SA1F: 0.10 SA2F: 0.31 SA3F: 0.36 SAbad: 0.21
+Validation Results - Epoch: 90  Weight accuracy: 0.78 Avg loss: 0.6479 PerfectSA 0.03 
+ SA1F: 0.09 SA2F: 0.30 SA3F: 0.37 SAbad: 0.21
+
+ Training Results - Epoch: 91  Weight accuracy: 0.78 Avg loss: 0.6113 PerfectSA 0.03 
+ SA1F: 0.10 SA2F: 0.31 SA3F: 0.36 SAbad: 0.19
+Validation Results - Epoch: 91  Weight accuracy: 0.78 Avg loss: 0.6152 PerfectSA 0.03 
+ SA1F: 0.11 SA2F: 0.31 SA3F: 0.37 SAbad: 0.18
+
+ Training Results - Epoch: 92  Weight accuracy: 0.79 Avg loss: 0.5834 PerfectSA 0.04 
+ SA1F: 0.12 SA2F: 0.32 SA3F: 0.34 SAbad: 0.17
+Validation Results - Epoch: 92  Weight accuracy: 0.79 Avg loss: 0.5874 PerfectSA 0.04 
+ SA1F: 0.12 SA2F: 0.32 SA3F: 0.35 SAbad: 0.17
+
+ Training Results - Epoch: 93  Weight accuracy: 0.80 Avg loss: 0.5247 PerfectSA 0.06 
+ SA1F: 0.15 SA2F: 0.32 SA3F: 0.32 SAbad: 0.15
+Validation Results - Epoch: 93  Weight accuracy: 0.80 Avg loss: 0.5295 PerfectSA 0.06 
+ SA1F: 0.15 SA2F: 0.32 SA3F: 0.32 SAbad: 0.15
+
+ Training Results - Epoch: 94  Weight accuracy: 0.81 Avg loss: 0.5183 PerfectSA 0.06 
+ SA1F: 0.17 SA2F: 0.32 SA3F: 0.32 SAbad: 0.13
+Validation Results - Epoch: 94  Weight accuracy: 0.81 Avg loss: 0.5235 PerfectSA 0.07 
+ SA1F: 0.16 SA2F: 0.32 SA3F: 0.33 SAbad: 0.13
+
+ Training Results - Epoch: 95  Weight accuracy: 0.82 Avg loss: 0.4791 PerfectSA 0.08 
+ SA1F: 0.19 SA2F: 0.32 SA3F: 0.30 SAbad: 0.12
+Validation Results - Epoch: 95  Weight accuracy: 0.81 Avg loss: 0.4842 PerfectSA 0.08 
+ SA1F: 0.18 SA2F: 0.32 SA3F: 0.30 SAbad: 0.12
+
+ Training Results - Epoch: 96  Weight accuracy: 0.83 Avg loss: 0.4207 PerfectSA 0.11 
+ SA1F: 0.23 SA2F: 0.33 SA3F: 0.25 SAbad: 0.09
+Validation Results - Epoch: 96  Weight accuracy: 0.83 Avg loss: 0.4253 PerfectSA 0.11 
+ SA1F: 0.22 SA2F: 0.32 SA3F: 0.26 SAbad: 0.09
+
+ Training Results - Epoch: 97  Weight accuracy: 0.84 Avg loss: 0.4035 PerfectSA 0.13 
+ SA1F: 0.25 SA2F: 0.30 SA3F: 0.24 SAbad: 0.09
+Validation Results - Epoch: 97  Weight accuracy: 0.84 Avg loss: 0.4089 PerfectSA 0.13 
+ SA1F: 0.24 SA2F: 0.30 SA3F: 0.25 SAbad: 0.08
+
+ Training Results - Epoch: 98  Weight accuracy: 0.85 Avg loss: 0.3744 PerfectSA 0.15 
+ SA1F: 0.26 SA2F: 0.30 SA3F: 0.22 SAbad: 0.07
+Validation Results - Epoch: 98  Weight accuracy: 0.85 Avg loss: 0.3794 PerfectSA 0.15 
+ SA1F: 0.26 SA2F: 0.29 SA3F: 0.23 SAbad: 0.07
+
+ Training Results - Epoch: 99  Weight accuracy: 0.85 Avg loss: 0.3725 PerfectSA 0.16 
+ SA1F: 0.27 SA2F: 0.29 SA3F: 0.21 SAbad: 0.07
+Validation Results - Epoch: 99  Weight accuracy: 0.85 Avg loss: 0.3778 PerfectSA 0.16 
+ SA1F: 0.27 SA2F: 0.29 SA3F: 0.22 SAbad: 0.07
+
+ Training Results - Epoch: 100  Weight accuracy: 0.87 Avg loss: 0.3179 PerfectSA 0.20 
+ SA1F: 0.30 SA2F: 0.27 SA3F: 0.17 SAbad: 0.06
+Validation Results - Epoch: 100  Weight accuracy: 0.87 Avg loss: 0.3216 PerfectSA 0.20 
+ SA1F: 0.29 SA2F: 0.27 SA3F: 0.18 SAbad: 0.05
+
+ Training Results - Epoch: 101  Weight accuracy: 0.89 Avg loss: 0.2614 PerfectSA 0.27 
+ SA1F: 0.31 SA2F: 0.24 SA3F: 0.13 SAbad: 0.04
+Validation Results - Epoch: 101  Weight accuracy: 0.89 Avg loss: 0.2653 PerfectSA 0.27 
+ SA1F: 0.31 SA2F: 0.25 SA3F: 0.13 SAbad: 0.04
+
+ Training Results - Epoch: 102  Weight accuracy: 0.90 Avg loss: 0.2254 PerfectSA 0.34 
+ SA1F: 0.31 SA2F: 0.22 SA3F: 0.10 SAbad: 0.03
+Validation Results - Epoch: 102  Weight accuracy: 0.90 Avg loss: 0.2280 PerfectSA 0.33 
+ SA1F: 0.31 SA2F: 0.22 SA3F: 0.11 SAbad: 0.03
+
+ Training Results - Epoch: 103  Weight accuracy: 0.90 Avg loss: 0.2206 PerfectSA 0.33 
+ SA1F: 0.32 SA2F: 0.22 SA3F: 0.10 SAbad: 0.03
+Validation Results - Epoch: 103  Weight accuracy: 0.90 Avg loss: 0.2240 PerfectSA 0.32 
+ SA1F: 0.33 SA2F: 0.22 SA3F: 0.10 SAbad: 0.03
+
+ Training Results - Epoch: 104  Weight accuracy: 0.91 Avg loss: 0.2095 PerfectSA 0.36 
+ SA1F: 0.32 SA2F: 0.21 SA3F: 0.09 SAbad: 0.03
+Validation Results - Epoch: 104  Weight accuracy: 0.91 Avg loss: 0.2130 PerfectSA 0.35 
+ SA1F: 0.33 SA2F: 0.20 SA3F: 0.09 SAbad: 0.03
+
+ Training Results - Epoch: 105  Weight accuracy: 0.91 Avg loss: 0.1999 PerfectSA 0.38 
+ SA1F: 0.31 SA2F: 0.20 SA3F: 0.08 SAbad: 0.02
+Validation Results - Epoch: 105  Weight accuracy: 0.91 Avg loss: 0.2025 PerfectSA 0.37 
+ SA1F: 0.32 SA2F: 0.19 SA3F: 0.08 SAbad: 0.02
+
+ Training Results - Epoch: 106  Weight accuracy: 0.91 Avg loss: 0.1933 PerfectSA 0.39 
+ SA1F: 0.32 SA2F: 0.19 SA3F: 0.08 SAbad: 0.02
+Validation Results - Epoch: 106  Weight accuracy: 0.91 Avg loss: 0.1956 PerfectSA 0.38 
+ SA1F: 0.33 SA2F: 0.20 SA3F: 0.07 SAbad: 0.02
+
+ Training Results - Epoch: 107  Weight accuracy: 0.93 Avg loss: 0.1534 PerfectSA 0.48 
+ SA1F: 0.30 SA2F: 0.16 SA3F: 0.05 SAbad: 0.02
+Validation Results - Epoch: 107  Weight accuracy: 0.93 Avg loss: 0.1564 PerfectSA 0.48 
+ SA1F: 0.30 SA2F: 0.16 SA3F: 0.05 SAbad: 0.02
+
+ Training Results - Epoch: 108  Weight accuracy: 0.93 Avg loss: 0.1522 PerfectSA 0.49 
+ SA1F: 0.29 SA2F: 0.15 SA3F: 0.05 SAbad: 0.02
+Validation Results - Epoch: 108  Weight accuracy: 0.93 Avg loss: 0.1546 PerfectSA 0.48 
+ SA1F: 0.29 SA2F: 0.16 SA3F: 0.06 SAbad: 0.02
+
+ Training Results - Epoch: 109  Weight accuracy: 0.93 Avg loss: 0.1597 PerfectSA 0.48 
+ SA1F: 0.29 SA2F: 0.16 SA3F: 0.05 SAbad: 0.02
+Validation Results - Epoch: 109  Weight accuracy: 0.93 Avg loss: 0.1619 PerfectSA 0.47 
+ SA1F: 0.29 SA2F: 0.16 SA3F: 0.06 SAbad: 0.02
+
+ Training Results - Epoch: 110  Weight accuracy: 0.93 Avg loss: 0.1461 PerfectSA 0.50 
+ SA1F: 0.30 SA2F: 0.15 SA3F: 0.04 SAbad: 0.01
+Validation Results - Epoch: 110  Weight accuracy: 0.93 Avg loss: 0.1486 PerfectSA 0.49 
+ SA1F: 0.30 SA2F: 0.15 SA3F: 0.05 SAbad: 0.01
+
+ Training Results - Epoch: 111  Weight accuracy: 0.93 Avg loss: 0.1509 PerfectSA 0.48 
+ SA1F: 0.30 SA2F: 0.16 SA3F: 0.05 SAbad: 0.01
+Validation Results - Epoch: 111  Weight accuracy: 0.93 Avg loss: 0.1519 PerfectSA 0.48 
+ SA1F: 0.30 SA2F: 0.16 SA3F: 0.04 SAbad: 0.01
+
+ Training Results - Epoch: 112  Weight accuracy: 0.93 Avg loss: 0.1456 PerfectSA 0.50 
+ SA1F: 0.29 SA2F: 0.15 SA3F: 0.04 SAbad: 0.02
+Validation Results - Epoch: 112  Weight accuracy: 0.93 Avg loss: 0.1475 PerfectSA 0.50 
+ SA1F: 0.30 SA2F: 0.15 SA3F: 0.05 SAbad: 0.02
+
+ Training Results - Epoch: 113  Weight accuracy: 0.94 Avg loss: 0.1358 PerfectSA 0.52 
+ SA1F: 0.28 SA2F: 0.14 SA3F: 0.04 SAbad: 0.01
+Validation Results - Epoch: 113  Weight accuracy: 0.94 Avg loss: 0.1373 PerfectSA 0.52 
+ SA1F: 0.28 SA2F: 0.15 SA3F: 0.04 SAbad: 0.01
+
+ Training Results - Epoch: 114  Weight accuracy: 0.94 Avg loss: 0.1358 PerfectSA 0.52 
+ SA1F: 0.29 SA2F: 0.14 SA3F: 0.04 SAbad: 0.01
+Validation Results - Epoch: 114  Weight accuracy: 0.94 Avg loss: 0.1380 PerfectSA 0.52 
+ SA1F: 0.29 SA2F: 0.14 SA3F: 0.04 SAbad: 0.01
+
+ Training Results - Epoch: 115  Weight accuracy: 0.94 Avg loss: 0.1380 PerfectSA 0.52 
+ SA1F: 0.29 SA2F: 0.14 SA3F: 0.04 SAbad: 0.01
+Validation Results - Epoch: 115  Weight accuracy: 0.94 Avg loss: 0.1402 PerfectSA 0.51 
+ SA1F: 0.29 SA2F: 0.15 SA3F: 0.04 SAbad: 0.01
+
+ Training Results - Epoch: 116  Weight accuracy: 0.94 Avg loss: 0.1254 PerfectSA 0.55 
+ SA1F: 0.27 SA2F: 0.13 SA3F: 0.03 SAbad: 0.01
+Validation Results - Epoch: 116  Weight accuracy: 0.94 Avg loss: 0.1264 PerfectSA 0.55 
+ SA1F: 0.28 SA2F: 0.13 SA3F: 0.03 SAbad: 0.01
+
+ Training Results - Epoch: 117  Weight accuracy: 0.94 Avg loss: 0.1377 PerfectSA 0.52 
+ SA1F: 0.29 SA2F: 0.14 SA3F: 0.04 SAbad: 0.01
+Validation Results - Epoch: 117  Weight accuracy: 0.94 Avg loss: 0.1394 PerfectSA 0.52 
+ SA1F: 0.29 SA2F: 0.14 SA3F: 0.04 SAbad: 0.02
+
+ Training Results - Epoch: 118  Weight accuracy: 0.95 Avg loss: 0.1202 PerfectSA 0.57 
+ SA1F: 0.27 SA2F: 0.12 SA3F: 0.03 SAbad: 0.01
+Validation Results - Epoch: 118  Weight accuracy: 0.95 Avg loss: 0.1218 PerfectSA 0.57 
+ SA1F: 0.27 SA2F: 0.13 SA3F: 0.03 SAbad: 0.01
+
+ Training Results - Epoch: 119  Weight accuracy: 0.94 Avg loss: 0.1229 PerfectSA 0.56 
+ SA1F: 0.27 SA2F: 0.12 SA3F: 0.03 SAbad: 0.01
+Validation Results - Epoch: 119  Weight accuracy: 0.95 Avg loss: 0.1228 PerfectSA 0.56 
+ SA1F: 0.27 SA2F: 0.13 SA3F: 0.03 SAbad: 0.01
+
+ Training Results - Epoch: 120  Weight accuracy: 0.95 Avg loss: 0.1192 PerfectSA 0.57 
+ SA1F: 0.26 SA2F: 0.12 SA3F: 0.03 SAbad: 0.01
+Validation Results - Epoch: 120  Weight accuracy: 0.95 Avg loss: 0.1205 PerfectSA 0.57 
+ SA1F: 0.26 SA2F: 0.13 SA3F: 0.03 SAbad: 0.01

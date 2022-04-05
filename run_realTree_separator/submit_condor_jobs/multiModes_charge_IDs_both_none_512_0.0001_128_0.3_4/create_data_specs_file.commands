@@ -1,0 +1,19 @@
+paths=(multiModes_firstRun_10k_each_5trees_charge_noSmear multiModes_firstRun_10k_each_5trees_IDs_charge_noSmear multiModes_firstRun_10k_each_5trees_IDs_noSmear multiModes_firstRun_10k_each_5trees_noSmear)
+
+nhid=512
+lr=0.0001
+bsize=128
+drop=0.3
+nblocks=4
+
+
+
+
+
+rm datafolders_specs.txt
+
+
+
+
+for path in $paths;  do echo $path $nhid $lr $bsize $drop $nblocks >> datafolders_specs.txt; done      
+

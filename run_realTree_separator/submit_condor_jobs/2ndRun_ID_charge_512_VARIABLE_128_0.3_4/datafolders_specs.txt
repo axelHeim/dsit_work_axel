@@ -1,0 +1,8 @@
+50k_realTree_charge 512 0.00001 128 0.3 4
+50k_realTree_charge 512 0.000001 128 0.3 4
+50k_realTree_clean 512 0.00001 128 0.3 4
+50k_realTree_clean 512 0.000001 128 0.3 4
+50k_realTree_IDs 512 0.00001 128 0.3 4
+50k_realTree_IDs 512 0.000001 128 0.3 4
+50k_realTree_IDs_charge 512 0.00001 128 0.3 4
+50k_realTree_IDs_charge 512 0.000001 128 0.3 4

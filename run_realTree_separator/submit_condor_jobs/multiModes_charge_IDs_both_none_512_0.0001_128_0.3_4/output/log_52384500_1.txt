@@ -1,0 +1,62 @@
+000 (52384500.001.000) 2021-05-15 18:26:14 Job submitted from host: <131.169.223.41:9618?addrs=131.169.223.41-9618+[2001-638-700-10df--1-29]-9618&alias=bird-htc-sched13.desy.de&noUDP&sock=schedd_1649_a7c2_7>
+...
+001 (52384500.001.000) 2021-05-15 18:26:52 Job executing on host: <131.169.160.84:40409?addrs=131.169.160.84-40409&alias=batchg004.desy.de>
+...
+006 (52384500.001.000) 2021-05-15 18:27:01 Image size of job updated: 348568
+	200  -  MemoryUsage of job (MB)
+	204336  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 18:32:02 Image size of job updated: 1843472
+	1494  -  MemoryUsage of job (MB)
+	1529280  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 18:37:03 Image size of job updated: 1843480
+	1494  -  MemoryUsage of job (MB)
+	1529280  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 18:42:03 Image size of job updated: 1846588
+	1497  -  MemoryUsage of job (MB)
+	1532388  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 18:47:03 Image size of job updated: 1847080
+	1497  -  MemoryUsage of job (MB)
+	1532880  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 18:52:04 Image size of job updated: 1847428
+	1498  -  MemoryUsage of job (MB)
+	1533228  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 18:57:05 Image size of job updated: 1847548
+	1498  -  MemoryUsage of job (MB)
+	1533348  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 19:02:05 Image size of job updated: 1848432
+	1499  -  MemoryUsage of job (MB)
+	1534232  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 19:17:07 Image size of job updated: 1848444
+	1499  -  MemoryUsage of job (MB)
+	1534244  -  ResidentSetSize of job (KB)
+...
+006 (52384500.001.000) 2021-05-15 19:37:09 Image size of job updated: 1848448
+	1499  -  MemoryUsage of job (MB)
+	1534248  -  ResidentSetSize of job (KB)
+...
+005 (52384500.001.000) 2021-05-15 20:53:17 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 02:02:45, Sys 0 00:23:49  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 02:02:45, Sys 0 00:23:49  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     1.01        1         2 
+	   Disk (KB)            :     1     3072000 259555324 
+	   Gpus                 :     0.84        1         1 "CUDA0"
+	   Memory (MB)          :  1499        1536     46758 
+
+	Job terminated of its own accord at 2021-05-15T18:53:17Z.
+...

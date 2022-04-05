@@ -1,0 +1,4 @@
+multiModes_firstRun_10k_each_5trees_charge_noSmear 512 0.0001 128 0.3 4
+multiModes_firstRun_10k_each_5trees_IDs_charge_noSmear 512 0.0001 128 0.3 4
+multiModes_firstRun_10k_each_5trees_IDs_noSmear 512 0.0001 128 0.3 4
+multiModes_firstRun_10k_each_5trees_noSmear 512 0.0001 128 0.3 4

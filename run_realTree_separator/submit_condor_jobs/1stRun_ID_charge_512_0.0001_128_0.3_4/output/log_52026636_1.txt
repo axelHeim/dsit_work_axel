@@ -1,0 +1,39 @@
+000 (52026636.001.000) 2021-05-07 21:24:31 Job submitted from host: <131.169.223.41:9618?addrs=131.169.223.41-9618+[2001-638-700-10df--1-29]-9618&alias=bird-htc-sched13.desy.de&noUDP&sock=schedd_1649_a7c2_7>
+...
+001 (52026636.001.000) 2021-05-07 21:25:12 Job executing on host: <131.169.160.86:45449?addrs=131.169.160.86-45449&alias=batchg006.desy.de>
+...
+006 (52026636.001.000) 2021-05-07 21:25:20 Image size of job updated: 167416
+	164  -  MemoryUsage of job (MB)
+	167416  -  ResidentSetSize of job (KB)
+...
+006 (52026636.001.000) 2021-05-07 21:30:20 Image size of job updated: 1540740
+	1493  -  MemoryUsage of job (MB)
+	1528448  -  ResidentSetSize of job (KB)
+...
+006 (52026636.001.000) 2021-05-07 21:35:21 Image size of job updated: 1542664
+	1495  -  MemoryUsage of job (MB)
+	1530372  -  ResidentSetSize of job (KB)
+...
+006 (52026636.001.000) 2021-05-07 21:40:22 Image size of job updated: 1543796
+	1496  -  MemoryUsage of job (MB)
+	1531504  -  ResidentSetSize of job (KB)
+...
+006 (52026636.001.000) 2021-05-07 21:55:23 Image size of job updated: 1543840
+	1496  -  MemoryUsage of job (MB)
+	1531548  -  ResidentSetSize of job (KB)
+...
+006 (52026636.001.000) 2021-05-07 22:15:25 Image size of job updated: 1543852
+	1496  -  MemoryUsage of job (MB)
+	1531560  -  ResidentSetSize of job (KB)
+...
+006 (52026636.001.000) 2021-05-07 22:45:27 Image size of job updated: 1543860
+	1496  -  MemoryUsage of job (MB)
+	1531568  -  ResidentSetSize of job (KB)
+...
+006 (52026636.001.000) 2021-05-07 23:20:30 Image size of job updated: 1543864
+	1496  -  MemoryUsage of job (MB)
+	1531572  -  ResidentSetSize of job (KB)
+...
+009 (52026636.001.000) 2021-05-08 00:25:13 Job was aborted by the user.
+	The system macro SYSTEM_PERIODIC_REMOVE expression '((JobStatus == 5 && (CurrentTime - EnteredCurrentStatus) > 7 * 24 * 3600)) || (NumJobStarts >= 3) || ((JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > MaxJobRetirementTime))' evaluated to TRUE
+...

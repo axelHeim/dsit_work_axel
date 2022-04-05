@@ -1,0 +1,8 @@
+Log         = /afs/desy.de/user/a/axelheim/private/HTCondor_interactive_optuna/output/log_$(Cluster)_$(Process).txt
+Output      = /afs/desy.de/user/a/axelheim/private/HTCondor_interactive_optuna/output/out_$(Cluster)_$(Process).txt
+Error       = /afs/desy.de/user/a/axelheim/private/HTCondor_interactive_optuna/output/error_$(Cluster)_$(Process).txt
+
+
+Requirements = OpSysAndVer == "CentOS7" && (CUDAGlobalMemoryMb > 20000)
+Request_GPUs = 1
+queue

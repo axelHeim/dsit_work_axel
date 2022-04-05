@@ -1,0 +1,20 @@
+Executable  = $ENV(PWD)/submit_script.sh
+Log         = $ENV(PWD)/output/log_$(Cluster)_$(Process).txt
+Output      = $ENV(PWD)/output/out_$(Cluster)_$(Process).txt
+Error       = $ENV(PWD)/output/error_$(Cluster)_$(Process).txt
+
+
+
+Requirements = OpSysAndVer == "CentOS7"
+Request_GPUs = 1
+
+getenv = True
+
+# in secs 
++RequestRuntime = 21600
+
+# Arguments = "ein/pfad/nach/nirgendwo"
+Args = $(path)  $(nhid) $(lr) $(bsize) $(drop) $(nblocks) 
+queue path nhid lr bsize drop nblocks from datafolders_specs.txt
+
+

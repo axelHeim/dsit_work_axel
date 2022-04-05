@@ -1,0 +1,50 @@
+000 (52026636.000.000) 2021-05-07 21:24:31 Job submitted from host: <131.169.223.41:9618?addrs=131.169.223.41-9618+[2001-638-700-10df--1-29]-9618&alias=bird-htc-sched13.desy.de&noUDP&sock=schedd_1649_a7c2_7>
+...
+001 (52026636.000.000) 2021-05-07 21:25:12 Job executing on host: <131.169.160.81:44563?addrs=131.169.160.81-44563&alias=batchg001.desy.de>
+...
+006 (52026636.000.000) 2021-05-07 21:25:20 Image size of job updated: 174968
+	171  -  MemoryUsage of job (MB)
+	174968  -  ResidentSetSize of job (KB)
+...
+006 (52026636.000.000) 2021-05-07 21:30:20 Image size of job updated: 1542956
+	1495  -  MemoryUsage of job (MB)
+	1530664  -  ResidentSetSize of job (KB)
+...
+006 (52026636.000.000) 2021-05-07 21:35:21 Image size of job updated: 1544928
+	1497  -  MemoryUsage of job (MB)
+	1532636  -  ResidentSetSize of job (KB)
+...
+006 (52026636.000.000) 2021-05-07 21:40:22 Image size of job updated: 1546640
+	1499  -  MemoryUsage of job (MB)
+	1534348  -  ResidentSetSize of job (KB)
+...
+006 (52026636.000.000) 2021-05-07 21:50:22 Image size of job updated: 1547756
+	1500  -  MemoryUsage of job (MB)
+	1535464  -  ResidentSetSize of job (KB)
+...
+006 (52026636.000.000) 2021-05-07 22:20:25 Image size of job updated: 1547760
+	1500  -  MemoryUsage of job (MB)
+	1535468  -  ResidentSetSize of job (KB)
+...
+006 (52026636.000.000) 2021-05-07 22:45:28 Image size of job updated: 1547764
+	1500  -  MemoryUsage of job (MB)
+	1535472  -  ResidentSetSize of job (KB)
+...
+005 (52026636.000.000) 2021-05-07 23:04:01 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 01:15:18, Sys 0 00:23:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:15:18, Sys 0 00:23:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     1.01        1         2 
+	   Disk (KB)            :     1     3072000 260564184 
+	   Gpus                 :     0.92        1         1 "CUDA0"
+	   Memory (MB)          :  1500        1536     46758 
+
+	Job terminated of its own accord at 2021-05-07T21:04:01Z.
+...

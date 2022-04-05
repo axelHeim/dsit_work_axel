@@ -1,0 +1,4 @@
+Number of arguments: 2 arguments.
+Argument List: ['test.py', 'pfad2']
+pfad2
+<class 'str'>
